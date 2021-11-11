@@ -1,0 +1,73 @@
+:root {
+    --blue: #59c1fe;
+}
+
+
+.blog-item:nth-of-type(2) .intro-image-text-only--holder .page-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*background: red;*/
+}
+
+.blog-item:nth-of-type(2) .intro-image-text-only--holder .page-header h2 {
+    font-size: 8vw;
+    font-weight: 900;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    padding: .5em;
+}
+
+.blog-item:nth-of-type(2) .intro-image-text-only--holder .page-header h2:nth-of-type(2) {
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    clip-path: inset(-1% -1% 50% -1%);
+}
+
+
+
+
+.blog-item:nth-of-type(3) .intro-image-text-only--holder h2 {
+    font-size: 15rem;
+    text-align: center;
+    height:90vh;
+    line-height: 90vh;
+    color: #fcedd8;
+    background: #d52e3f;
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #eb452b,
+    10px 10px 0px #efa032,
+    15px 15px 0px #46b59b,
+    20px 20px 0px #017e7f,
+    25px 25px 0px #052939,
+    30px 30px 0px #c11a2b,
+    35px 35px 0px #c11a2b,
+    40px 40px 0px #c11a2b,
+    45px 45px 0px #c11a2b;
+}
+.blog-item:nth-of-type(3) .intro-image-text-only--holder h2:nth-of-type(2) {
+    display: none;
+}
+
+.item-content .page-header h2 {
+    padding-bottom: 8px;
+    border-bottom: var(--blue) solid 2px;
+}
+
+.intro-image-text-only--holder {
+    position: relative;
+}
+
+.intro_image--coloured {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #182B5A;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+}
